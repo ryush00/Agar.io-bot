@@ -1000,6 +1000,7 @@ console.log("Running Bot Launcher!");
     };
     null != h.localStorage && (null == h.localStorage.AB8 && (h.localStorage.AB8 = 0 + ~~(100 * Math.random())), Qa = + h.localStorage.AB8, h.ABGroup = Qa);
     f.get($ + '//gc.agar.io', function (a) {
+      a = "CN"
       var b = a.split(' ');
       a = b[0];
       b = b[1] || '';
